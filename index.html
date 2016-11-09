@@ -8,28 +8,9 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:300,400,700">
 </head>
 <body>
-  <div id="sidebar">
-    <ul id="list-sidebar">
-      <li>
-        <a href="#summary">
-          <i class="fa fa-info-circle fa-2x"></i>
-        </a>
-      </li>
-      <li>
-        <a href="#favorite-books">
-          <i class="fa fa-book fa-2x"></i>
-        </a>
-      </li>
-      <li>
-        <a href="#footer">
-          <i class="fa fa-life-ring fa-2x"></i>
-        </a>
-      </li>
-    </ul>
-  </div>
-  <div id="page-content">
-    <div class="container" id="summary">
-      <div class="card introduction">
+  <div id="wrapper">
+    <div id="left">
+      <div class="card" id="introduction">
         <img src="pics/profile.jpg" alt="Mykolas Petrauskas" id="pic-round" width="100px">
         <h1>Mykolas Petrauskas</h1>
         <h2>Business technologist,
@@ -37,14 +18,16 @@
           <p>Young business technology professional with interest in #DigitalInnovation #Strategy #Analytics. Love debating, reading, driving...</p>
           <a href="#"  class="btn-red">See for yourself</a>
         </div>
-        <div class="card">
+        <div class="card" id="social-networks">
           <ul class="list-inline">
             <li><a href="https://www.facebook.com/petrauskas.mykolas" target="_blank"> <i class="fa fa-facebook fa-2x" aria-hidden="true"></i><br>Facebook</a></li>
             <li><a href="https://www.twitter.com/mpetrau" target="_blank"> <i class="fa fa-twitter fa-2x" aria-hidden="true"></i><br>Twitter</a></li>
             <li><a href="https://www.linkedin.com/in/mpetrau" target="_blank"> <i class="fa fa-twitter fa-2x" aria-hidden="true"></i><br>LinkedIn</a></li>
           </ul>
         </div>
-        <div class="card" id="favorite-books">
+      </div>
+      <div id="right">
+        <div class="card">
           <h2>Books I like</h2>
           <table>
             <tbody>
@@ -72,13 +55,18 @@
             </tbody>
           </table>
         </div>
-        <div class="card" id="footer">
-          <h2>About this page</h2>
-          <p class="center">This page has been coded during the <a href="https://www.lewagon.com">FullStack program @LeWagon</a>. That was probably the best experience of my entire life.</p>
-          <ul class="list-inline">
-            <li><a href="#"><i class="fa fa-heart fa-2x" aria-hidden="true"></i></a></li>
-            <li><a href="#"><i class="fa fa-share fa-2x" aria-hidden="true"></i></a></li>
-          </ul>
+      </div>
+      <div id="clear"></div>
+      <div class="card" id="footer">
+        <div id="about">
+        <h2>About this page</h2>
+        <p class="center">This page has been coded during the <a href="https://www.lewagon.com">FullStack program @LeWagon</a>. That was probably the best experience of my entire life.</p>
+        </div>
+        <div id="share">
+        <ul class="list-inline">
+          <li><a href="#"><i class="fa fa-heart fa-2x" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fa fa-share fa-2x" aria-hidden="true"></i></a></li>
+        </ul>
         </div>
       </div>
     </div>
