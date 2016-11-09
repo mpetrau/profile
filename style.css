@@ -1,0 +1,94 @@
+body {
+  background-color: #EBEBEB;
+  font-family: 'Open Sans', sans-serif;
+  color: #7D7D7D;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 300;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+
+}
+
+h1 {
+  color: #F03F47;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+p {
+  text-align: justify;
+}
+
+a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #DD5555;
+}
+
+td {
+  padding:10px;
+}
+
+.center{
+  text-align: center;
+}
+
+.book-icon {
+  margin: auto;
+  width: 150px;
+}
+
+.container{
+  width: 500px;   /* Set width */
+  margin: 0 auto; /* Automatically set left/right margins */
+}
+
+.card{
+  background: white;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.list-inline {
+  padding:0px;
+  text-align: center;
+}
+
+.list-inline li{
+  display:inline-block;
+  padding:20px;
+}
+
+.btn-red {
+  background: #DD5555;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.btn-red:hover {
+  color: white;
+}
+
+#pic-round {
+  border-radius: 50%;
+  border: 3px solid #cccccc;
+}
