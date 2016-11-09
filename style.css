@@ -88,7 +88,30 @@ td {
   color: white;
 }
 
+#sidebar{
+  position: fixed;
+  width: 100px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background: #364047;
+}
+
+#list-sidebar {
+  padding:0px;
+  text-align: center;
+}
+
+#list-sidebar li{
+  padding:20px;
+}
+
+#page-content{
+  margin-left: 100px;
+}
+
 #pic-round {
   border-radius: 50%;
   border: 3px solid #cccccc;
 }
+

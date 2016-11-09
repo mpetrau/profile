@@ -8,57 +8,78 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:300,400,700">
 </head>
 <body>
-  <div class="container">
-    <div class="card introduction">
-      <img src="pics/profile.jpg" alt="Mykolas Petrauskas" id="pic-round" width="100px">
-      <h1>Mykolas Petrauskas</h1>
-      <h2>Business technologist,
-        @LeWagon student</h2>
-        <p>Young business technology professional with interest in #DigitalInnovation #Strategy #Analytics. Love debating, reading, driving...</p>
-        <a href="#"  class="btn-red">See for yourself</a>
-      </div>
-      <div class="card">
-      <ul class="list-inline">
-          <li><a href="https://www.facebook.com/petrauskas.mykolas" target="_blank"> <i class="fa fa-facebook fa-2x" aria-hidden="true"></i><br>Facebook</a></li>
-          <li><a href="https://www.twitter.com/mpetrau" target="_blank"> <i class="fa fa-twitter fa-2x" aria-hidden="true"></i><br>Twitter</a></li>
-          <li><a href="https://www.linkedin.com/in/mpetrau" target="_blank"> <i class="fa fa-twitter fa-2x" aria-hidden="true"></i><br>LinkedIn</a></li>
-        </ul>
-      </div>
-      <div class="card">
-        <h2>Books I like</h2>
-        <table>
-          <tbody>
-            <tr>
-              <td><img src="pics/executive.jpg" alt="effective executive" class="book-icon"></td>
-              <td>
-                <h3>The Effective Executive</h3>
-                <p> The measure of the executive, Peter F. Drucker reminds us, is the ability to "get the right things done." This usually involves doing what other people have overlooked as well as avoiding what is unproductive. Intelligence, imagination, and knowledge may all be wasted in an executive job without the acquired habits of mind that mold them into results.</p>
-              </td>
-            </tr>
-            <tr>
-              <td><img src="pics/creativity.jpg" alt="creativity inc." class="book-icon"></td>
-              <td>
-                <h3>Creativity, Inc.: Overcoming the Unseen Forces That Stand in the Way of True Inspiration</h3>
-                <p>A book for managers who want to lead their employees to new heights, with all-access trip into the nerve center of Pixar Animation. It is a book about, as Pixar co-founder and president Ed Catmull writes, “an expression of the ideas that I believe make the best in us possible.”</p>
-              </td>
-            </tr>
-            <tr>
-              <td><img src="pics/6rules.jpg" alt="6 simple rules" class="book-icon"</td>
-              <td>
-                <h3>Six Simple Rules: How to Manage Complexity without Getting Complicated</h3>
-                <p>Business complexity has increased sixfold during the past sixty years, while, organizational complicatedness(structures, processes, committees, KPIs...) has increased by a whopping factor of thirty-five. Clearly it’s time for leaders to stop trying to manage complexity with their traditional tools and instead better leverage employees' intelligence. </p>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="card">
-        <h2>About this page</h2>
-        <p class="center">This page has been coded during the <a href="https://www.lewagon.com">FullStack program @LeWagon</a>. That was probably the best experience of my entire life.</p>
-        <ul class="list-inline">
-          <li><a href="#"><i class="fa fa-heart fa-2x" aria-hidden="true"></i></a></li>
-          <li><a href="#"><i class="fa fa-share fa-2x" aria-hidden="true"></i></a></li>
-        </ul>
+  <div id="sidebar">
+    <ul id="list-sidebar">
+      <li>
+        <a href="#summary">
+          <i class="fa fa-info-circle fa-2x"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#favorite-books">
+          <i class="fa fa-book fa-2x"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#footer">
+          <i class="fa fa-life-ring fa-2x"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div id="page-content">
+    <div class="container" id="summary">
+      <div class="card introduction">
+        <img src="pics/profile.jpg" alt="Mykolas Petrauskas" id="pic-round" width="100px">
+        <h1>Mykolas Petrauskas</h1>
+        <h2>Business technologist,
+          @LeWagon student</h2>
+          <p>Young business technology professional with interest in #DigitalInnovation #Strategy #Analytics. Love debating, reading, driving...</p>
+          <a href="#"  class="btn-red">See for yourself</a>
+        </div>
+        <div class="card">
+          <ul class="list-inline">
+            <li><a href="https://www.facebook.com/petrauskas.mykolas" target="_blank"> <i class="fa fa-facebook fa-2x" aria-hidden="true"></i><br>Facebook</a></li>
+            <li><a href="https://www.twitter.com/mpetrau" target="_blank"> <i class="fa fa-twitter fa-2x" aria-hidden="true"></i><br>Twitter</a></li>
+            <li><a href="https://www.linkedin.com/in/mpetrau" target="_blank"> <i class="fa fa-twitter fa-2x" aria-hidden="true"></i><br>LinkedIn</a></li>
+          </ul>
+        </div>
+        <div class="card" id="favorite-books">
+          <h2>Books I like</h2>
+          <table>
+            <tbody>
+              <tr>
+                <td><img src="pics/executive.jpg" alt="effective executive" class="book-icon"></td>
+                <td>
+                  <h3>The Effective Executive</h3>
+                  <p> The measure of the executive, Peter F. Drucker reminds us, is the ability to "get the right things done." This usually involves doing what other people have overlooked as well as avoiding what is unproductive. Intelligence, imagination, and knowledge may all be wasted in an executive job without the acquired habits of mind that mold them into results.</p>
+                </td>
+              </tr>
+              <tr>
+                <td><img src="pics/creativity.jpg" alt="creativity inc." class="book-icon"></td>
+                <td>
+                  <h3>Creativity, Inc.: Overcoming the Unseen Forces That Stand in the Way of True Inspiration</h3>
+                  <p>A book for managers who want to lead their employees to new heights, with all-access trip into the nerve center of Pixar Animation. It is a book about, as Pixar co-founder and president Ed Catmull writes, “an expression of the ideas that I believe make the best in us possible.”</p>
+                </td>
+              </tr>
+              <tr>
+                <td><img src="pics/6rules.jpg" alt="6 simple rules" class="book-icon"</td>
+                <td>
+                  <h3>Six Simple Rules: How to Manage Complexity without Getting Complicated</h3>
+                  <p>Business complexity has increased sixfold during the past sixty years, while, organizational complicatedness(structures, processes, committees, KPIs...) has increased by a whopping factor of thirty-five. Clearly it’s time for leaders to stop trying to manage complexity with their traditional tools and instead better leverage employees' intelligence. </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="card" id="footer">
+          <h2>About this page</h2>
+          <p class="center">This page has been coded during the <a href="https://www.lewagon.com">FullStack program @LeWagon</a>. That was probably the best experience of my entire life.</p>
+          <ul class="list-inline">
+            <li><a href="#"><i class="fa fa-heart fa-2x" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-share fa-2x" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>
       </div>
     </div>
   </body>
